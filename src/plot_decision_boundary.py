@@ -1,8 +1,9 @@
 # Plotting the decision boundaries
+import numpy as np
 import matplotlib.pyplot as plt
 
 # Plot the decision boundary
-def plot_decision_boundary(X, Y, clf):
+def plot_decision_boundary(X, Y, headers, dims, target_names, clf):
     # Some variables
     n_classes = 3
     plot_colors = "bry"
